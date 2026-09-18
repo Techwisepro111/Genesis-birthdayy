@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Genesis! 🌸💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Falling flowers and hearts container -->
+    <div id="falling-container"></div>
+
+    <!-- Hidden YouTube Audio Player for "Mistletoe" -->
+    <div style="display: none;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LUjn3RWhISQ?autoplay=1&loop=1&playlist=LUjn3RWhISQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="main-wrapper">
+        <!-- Today's Date Badge -->
+        <div id="date-badge" class="date-badge">Loading date...</div>
+
+        <!-- Interactive Gift Card -->
+        <div class="card" id="giftCard" onclick="openCard()">
+            <div class="card-front" id="cardFront">
+                <h2>🎁 For Genesis</h2>
+                <p class="tap-text">Tap to open your card ✨</p>
+            </div>
+            <div class="card-inside hidden" id="cardInside">
+                <h2>Happy Birthday! 🎉</h2>
+                <p class="note-text">
+                    Wishing you the most amazing birthday today! I just want to say how lucky I am to have you as such a good friend. You bring so much joy to me, and I love you so much. Hope your special day is filled with all the happiness you deserve! 💖
+                </p>
+                <p class="song-inspiration">🎵 *Now Playing: Mistletoe - Justin Bieber*</p>
+                <p class="signature">- Jerry</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
